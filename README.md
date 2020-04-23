@@ -8,8 +8,8 @@ codeigniter/
 └── app/
     └── Common.php
 └── vendor
-    └──twig
-       └── ...
+    └── twig
+        └── ...
 ```
 
 ## Yêu cầu

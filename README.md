@@ -1,9 +1,14 @@
 # Mô tả
-Twig for Codeigniter 4, Twig Template Engine for Codeigniter 4
+Twig for Codeigniter 4, Twig Template Engine for Codeigniter 4x stable
 
 Upload file Common.php lên đường dẫn App/Common.php của ứng dụng
 
-# Sử dụng
+## Yêu cầu
+* PHP 7.2x
+* Twig 3x
+* Codeigniter 4x stable
+
+## Sử dụng
 Tạo file App/Views/example.twig với nội dung
 ```
 Hi, {{ name }}!

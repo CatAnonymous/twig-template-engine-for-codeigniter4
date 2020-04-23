@@ -21,8 +21,8 @@ Upload file Common.php lên đường dẫn App/Common.php của ứng dụng
 codeigniter/
 └── app/
     └── Common.php
-└── vendor
-    └── twig
+└── vendor/
+    └── twig/
         └── ...
 ```
 

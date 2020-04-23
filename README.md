@@ -42,4 +42,4 @@ $template->display('example', ['name' => 'Codeigniter']);
 
 • Facebook: https://fb.com/khaiphan9x
 
-If you need more features, please create a issues.
+If you need more features, please create a issue.

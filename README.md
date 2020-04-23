@@ -13,9 +13,9 @@ codeigniter/
 ```
 
 ## Yêu cầu
-* PHP 7.2x
-* Twig 3x
-* Codeigniter 4x stable
+• PHP 7.2x
+• Twig 3x
+• Codeigniter 4x stable
 
 ## Sử dụng
 Tạo file App/Views/example.twig với nội dung
@@ -28,3 +28,8 @@ Hi, {{ name }}!
 $template = new \Template;
 $template->display('example', ['name' => 'Codeigniter']);
 ```
+## Liên hệ
+• Email: khaiphan9x@gmail.com
+• Facebook: https://fb.com/khaiphan9x
+
+If you need more features, create a issues.

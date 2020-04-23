@@ -2,7 +2,7 @@
 Twig for Codeigniter 4, Twig Template Engine for Codeigniter 4x stable
 
 ## Yêu cầu
-• PHP 7.2x
+• PHP 7.2 or newer is required
 
 • Twig 3x
 

@@ -19,6 +19,13 @@ codeigniter/
 
 • Codeigniter 4x stable
 
+## Cài đặt Twig
+Tại thư mục gốc của Codeigniter chạy lệnh
+
+```
+composer require "twig/twig:^3.0"
+```
+
 ## Sử dụng
 Tạo file App/Views/example.twig với nội dung
 ```

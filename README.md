@@ -30,6 +30,7 @@ $template->display('example', ['name' => 'Codeigniter']);
 ```
 ## Liên hệ
 • Email: khaiphan9x@gmail.com
+
 • Facebook: https://fb.com/khaiphan9x
 
-If you need more features, create a issues.
+If you need more features, please create a issues.

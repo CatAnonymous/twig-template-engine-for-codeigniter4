@@ -1,7 +1,15 @@
 # Mô tả
 Twig for Codeigniter 4, Twig Template Engine for Codeigniter 4x stable
 
+## Cấu trúc thư mục
 Upload file Common.php lên đường dẫn App/Common.php của ứng dụng
+```
+codeigniter/
+└── app/
+    └── Common.php
+└── vendor
+    └──twig
+```
 
 ## Yêu cầu
 * PHP 7.2x

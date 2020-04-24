@@ -13,7 +13,6 @@ class Template
 			'cache' => WRITEPATH.'cache',
 		]);
 		$twig->addExtension(new \Twig\Extension\DebugExtension);
-		$twig->addExtension(new Extension);
 		foreach(get_defined_functions()['user'] as $function) {
 			if (!preg_match('/^twig|_twig/', $function)) {
 				$twig->addFunction(new \Twig\TwigFunction($function, $function));

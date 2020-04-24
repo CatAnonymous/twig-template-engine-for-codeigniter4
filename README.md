@@ -16,14 +16,16 @@ composer require "twig/twig:^3.0"
 ```
 
 ## Cấu trúc thư mục
-Upload file Common.php lên đường dẫn App/Common.php của ứng dụng
+Upload toàn bộ file lên thư mục gốc của ứng dụng
 ```
 codeigniter/
 └── app/
-    └── Common.php
+    └── Twig/
+        └── Template.php
 └── vendor/
     └── twig/
         └── ...
+    └── ...
 ```
 
 ## Sử dụng
@@ -34,9 +36,20 @@ Hi, {{ name }}!
 
 Đặt code sau trong Controller muốn hiển thị
 ```
-$template = new \Template;
+$template = new \App\Twig\Template;
 $template->display('example', ['name' => 'Codeigniter']);
 ```
+
+Mặc định code sẽ tự động add tất cả các function của CI4. Để add function ta dùng
+```
+$template->addFunction($name, $callable);
+```
+
+Để add filter ta dùng
+```
+$template->addFilter($name, $callable);
+```
+
 ## Liên hệ
 • Email: khaiphan9x@gmail.com
 

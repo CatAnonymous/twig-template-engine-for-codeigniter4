@@ -38,7 +38,6 @@ class Template
 		}
 	}
 	
-	// Kiểm tra cú pháp của Twig
 	public function checkSyntax($source, $identifier = '') {
 		try {
 			return $this->twig->parse($this->twig->tokenize(new \Twig\Source($source, $identifier)));

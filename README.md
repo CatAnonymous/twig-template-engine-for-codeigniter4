@@ -1,22 +1,15 @@
-# Mô tả
+# Introduction
 Twig for Codeigniter 4, Twig Template Engine for Codeigniter 4x stable
 
-## Yêu cầu
-• PHP 7.2 or newer is required
+Tested on Twig 3.0.3, PHP 7.4.5 and Codeigniter 4.0.2
 
-• Twig 3x
+## Requirements
+• PHP 7.2 or newer
 
 • Codeigniter 4x stable
 
-## Cài đặt Twig
-Tại thư mục gốc của Codeigniter chạy lệnh
-
-```
-composer require "twig/twig:^3.0"
-```
-
-## Cấu trúc thư mục
-Upload toàn bộ file lên thư mục gốc của ứng dụng
+## Folder Structure
+Upload the entire file to the root of the application
 ```
 codeigniter/
 └── app/
@@ -28,29 +21,29 @@ codeigniter/
     └── ...
 ```
 
-## Sử dụng
-Tạo file App/Views/example.twig với nội dung
+## Usage
+Create file App/Views/example.twig with content
 ```
-Hi, {{ name }}!
+Hi, {{name}}!
 ```
 
-Đặt code sau trong Controller muốn hiển thị
+Put the following code in the Controller you want to display
 ```
 $template = new \App\Twig\Template;
 $template->display('example', ['name' => 'Codeigniter']);
 ```
 
-Mặc định code sẽ tự động add tất cả các function của CI4. Để add function ta dùng
+By default, the code will automatically add all CI4 functions. To add a function use
 ```
 $template->addFunction($name, $callable);
 ```
 
-Để add filter ta dùng
+To add a filter use
 ```
 $template->addFilter($name, $callable);
 ```
 
-## Liên hệ
+## Contact
 • Email: khaiphan9x@gmail.com
 
 • Facebook: https://fb.com/khaiphan9x

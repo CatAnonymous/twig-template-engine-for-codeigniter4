@@ -1,4 +1,15 @@
 <?php
+
+/**
+ * Twig for Codeigniter 4
+ *
+ * @package   TwigCodeigniter4
+ * @author    Khai Phan
+ * @copyright Copyright (c) 2020, Khai Phan
+ * @license   MIT
+ * @link      https://github.com/khaiphan9x/twig-template-engine-for-codeigniter4
+ */
+ 
 namespace App\Twig;
 
 class Template
@@ -39,7 +50,7 @@ class Template
 	
 	public function checkSyntax($source, $identifier = '') {
 		try {
-			return $this->twig->parse($this->twig->tokenize(new \Twig\Source($source, $identifier)));
+			$this->twig->parse($this->twig->tokenize(new \Twig\Source($source, $identifier)));
 		} catch (\Twig\Error\SyntaxError $e) {
 			echo 'Syntax Error: ' . $e->getMessage();
 		} catch (\Twig\Error\RuntimeError $e) {

@@ -9,7 +9,7 @@ Tested on Twig 3.0.3, PHP 7.4.5 and Codeigniter 4.0.2
 • Codeigniter 4x stable
 
 ## Folder Structure
-Upload the entire file to the root of the application
+Extract the entire file to the root of the application
 ```
 codeigniter/
 └── app/

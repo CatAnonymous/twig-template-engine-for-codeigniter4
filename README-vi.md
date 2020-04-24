@@ -9,7 +9,7 @@ Twig for Codeigniter 4, Twig Template Engine for Codeigniter 4x stable
 • Codeigniter 4x stable
 
 ## Cấu trúc thư mục
-Upload toàn bộ file lên thư mục gốc của ứng dụng
+Giải nén toàn bộ file lên thư mục gốc của ứng dụng
 ```
 codeigniter/
 └── app/
